@@ -1,6 +1,4 @@
-Vanilla+
-worst fucking thing ever lmao
-
+FNF vanilla+
 
 # Friday Night Funkin(actual good stuff lol)
 
