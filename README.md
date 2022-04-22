@@ -1,4 +1,8 @@
-# Friday Night Funkin
+Vanilla+
+worst fucking thing ever lmao
+
+
+# Friday Night Funkin(actual good stuff lol)
 
 This is the repository for Friday Night Funkin, a game originally made for Ludum Dare 47 "Stuck In a Loop".
 
