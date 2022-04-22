@@ -729,9 +729,72 @@ class PlayState extends MusicBeatState
 		healthBar = new FlxBar(healthBarBG.x + 4, healthBarBG.y + 4, RIGHT_TO_LEFT, Std.int(healthBarBG.width - 8), Std.int(healthBarBG.height - 8), this,
 			'health', 0, 2);
 		healthBar.scrollFactor.set();
-		healthBar.createFilledBar(0xFFFF0000, 0xFF66FF33);
+		healthBar.createFilledBar(0xFFFF0000, 0xFF2EB0D1);
 		// healthBar
 		add(healthBar);
+
+	    if(SONG.song.toLowerCase()=='bopeebo' || SONG.song.toLowerCase()=='fresh' || SONG.song.toLowerCase()=='dadbattle' || SONG.song.toLowerCase()=='cocoa' || SONG.song.toLowerCase()=='eggnog')
+		{
+			healthBar.createFilledBar(0xFF8E40A5, 0xFF2EB0D1);
+		}
+		// healthBar
+		add(healthBar);
+
+	    if(SONG.song.toLowerCase()=='spookeez' || SONG.song.toLowerCase()=='south')
+		{
+			healthBar.createFilledBar(0xFFF5A442, 0xFF2EB0D1);
+		}
+		// healthBar
+		add(healthBar);
+
+	    if(SONG.song.toLowerCase()=='monster' || SONG.song.toLowerCase()=='winter-horrorland')
+		{
+			healthBar.createFilledBar(0xFFFFEA05, 0xFF2EB0D1);
+		}
+		// healthBar
+		add(healthBar);
+
+		if(SONG.song.toLowerCase()=='pico' || SONG.song.toLowerCase()=='philly' || SONG.song.toLowerCase()=='blammed')
+		{
+			healthBar.createFilledBar(0xFFB9D953, 0xFF2EB0D1);
+		}
+		// healthBar
+		add(healthBar);
+
+        if(SONG.song.toLowerCase()=='satin-panties' || SONG.song.toLowerCase()=='high' || SONG.song.toLowerCase()=='milf')
+		{
+			healthBar.createFilledBar(0xFFD75289, 0xFF2EB0D1);
+		}
+		// healthBar
+		add(healthBar);
+
+		if(SONG.song.toLowerCase()=='thorns')
+		{
+			healthBar.createFilledBar(0xFFE60049, 0xFF00CDE7);
+		}
+		// healthBar
+		add(healthBar);
+
+		if(SONG.song.toLowerCase()=='senpai' || SONG.song.toLowerCase()=='roses')
+		{
+			healthBar.createFilledBar(0xFFFCAC74, 0xFF00CDE7);
+		}
+		// healthBar
+		add(healthBar);
+
+		if(SONG.song.toLowerCase()=='tutorial')
+		{
+			healthBar.createFilledBar(0xFFB40454, 0xFF00CDE7);
+		}
+		// healthBar
+		add(healthBar);
+
+
+
+		
+         
+
+
 
 		scoreTxt = new FlxText(healthBarBG.x + healthBarBG.width - 190, healthBarBG.y + 30, 0, "", 20);
 		scoreTxt.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT);
